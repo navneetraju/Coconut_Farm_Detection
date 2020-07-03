@@ -17,12 +17,12 @@ def iou_score(y_true,y_pred):
 def load_model_util(model_id):
 	if(model_id==1):
 		try:
-			model = load_model('model.h5',
+			model = load_model('./model_weights/unet_v2.h5',
 					custom_objects={'jaccard_distance_loss': jaccard_distance_loss,
 									'iou_score':iou_score})
 			return model
 		except:
-			print('Error !!!! Model File Not Found,Ensure Model File is In The Same Directory')
+			print('Error: Model File Not Found!!')
 			sys.exit()
 	else:
 		model = load_model('model_unet.h5',
