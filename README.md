@@ -5,3 +5,5 @@ Download model weights from : https://bit.ly/2AvpDVO and save in "model_weights"
 ```
 Usage: process.py [Full Directory to Image]
 ```
+## Project Flowchart
+![alt text](https://github.com/navneetraju66/Coconut_Farm_Detection/blob/master/flowchart_coconut%20(1).png?raw=true)
