@@ -1,4 +1,4 @@
-# Coconut_Farm_Detection
+# Coconut Farm Detection
 Identification of Coconut Farms from High Resolution Multi-Spectral Satellite Images using Semantic Segmentation Techniques
 ###### To Generate Segmenation Predictions:
 Download model weights from : https://bit.ly/2AvpDVO and save in "model_weights" folder
